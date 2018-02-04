@@ -1,0 +1,13 @@
+#! /bin/bash
+
+echo "~~~~~~~~~Start~~~~~~~~~~"
+apt-get -y update
+apt -y update
+echo "-----------------------------"
+apt-get -y upgrade
+apt -y upgrade
+echo "_____________________________"
+apt-get -y autoclean
+apt -y autoclean
+echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+echo "Donezo Funzo"
